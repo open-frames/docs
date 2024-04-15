@@ -22,6 +22,10 @@ export default defineConfig({
       ],
     },
     {
+      text: "Best Practices",
+      link: "/best-practices",
+    },
+    {
       text: "Ecosystem",
       collapsed: false,
       items: [
@@ -33,7 +37,21 @@ export default defineConfig({
           text: "Lens",
           link: "/ecosystem/lens",
         },
+        {
+          text: "Farcaster",
+          link: "/ecosystem/farcaster",
+        },
       ],
+    },
+  ],
+  socials: [
+    {
+      icon: "github",
+      link: "https://github.com/open-frames/standard",
+    },
+    {
+      icon: "warpcast",
+      link: "https://warpcast.com/~/channel/open-frames",
     },
   ],
 });
