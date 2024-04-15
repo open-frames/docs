@@ -63,5 +63,9 @@ export default defineConfig({
       icon: "warpcast",
       link: "https://warpcast.com/~/channel/open-frames",
     },
+    {
+      icon: "x",
+      link: "https://x.com/openframesxyz",
+    },
   ],
 });
