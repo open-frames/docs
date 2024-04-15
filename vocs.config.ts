@@ -43,6 +43,16 @@ export default defineConfig({
         },
       ],
     },
+    {
+      text: "Examples",
+      collapsed: false,
+      items: [
+        {
+          text: "Awesome Open Frames ↗︎",
+          link: "https://github.com/open-frames/awesome-open-frames",
+        },
+      ],
+    },
   ],
   socials: [
     {
