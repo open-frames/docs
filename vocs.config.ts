@@ -1,7 +1,9 @@
 import { defineConfig } from "vocs";
 
 export default defineConfig({
-  title: "Open Frames",
+  title: "Open Frames - Docs",
+  description:
+    "An extension of Open Graph that makes link previews interactive.",
   sidebar: [
     {
       text: "Specification",
@@ -54,18 +56,11 @@ export default defineConfig({
       ],
     },
   ],
-  socials: [
-    {
-      icon: "github",
-      link: "https://github.com/open-frames/standard",
-    },
-    {
-      icon: "warpcast",
-      link: "https://warpcast.com/~/channel/open-frames",
-    },
-    {
-      icon: "x",
-      link: "https://x.com/openframesxyz",
-    },
+  topNav: [
+    { text: "GitHub", link: "https://github.com/open-frames/standard" },
+    { text: "Farcaster", link: "https://warpcast.com/~/channel/open-frames" },
+    { text: "XMTP", link: "https://converse.xyz/dm/openframes.eth" },
+    { text: "Lens", link: "https://hey.xyz/u/openframes" },
+    { text: "X", link: "https://x.com/openframesxyz" },
   ],
 });
