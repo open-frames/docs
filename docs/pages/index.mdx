@@ -1,0 +1,24 @@
+---
+title: "Open Frames - Docs"
+description: "An extension of Open Graph that makes link previews interactive."
+---
+
+import { HomePage } from "vocs/components";
+import Spec from "./spec.md";
+
+<HomePage.Root>
+  <HomePage.Logo />
+  <HomePage.Tagline>
+    An extension of Open Graph that makes link previews interactive.
+  </HomePage.Tagline>
+  <HomePage.Buttons>
+    <HomePage.Button href="#open-frames-spec" variant="accent">
+      Learn more
+    </HomePage.Button>
+    <HomePage.Button href="https://github.com/open-frames/standard">
+      GitHub
+    </HomePage.Button>
+  </HomePage.Buttons>
+</HomePage.Root>
+
+<Spec />
