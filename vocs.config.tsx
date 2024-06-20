@@ -22,13 +22,14 @@ export default defineConfig({
           <meta name="of:accepts:*" content="*" />
           <meta
             name="fc:frame:image"
-            content="https://opengraph.xyz/opengraph.png"
+            content="https://openframes.xyz/opengraph.png"
           />
           <meta
             property="og:image"
             content="https://openframes.xyz/opengraph.png"
           />
           <meta name="fc:frame:button:1" content="Read Docs" />
+          <meta name="fc:frame:button:1:action" content="link" />
           <meta
             name="fc:frame:button:1:target"
             content="https://openframes.xyz"
