@@ -37,7 +37,7 @@ export default defineConfig({
       );
     }
 
-    return <script defer src="/_vercel/insights/script.js" />;
+    return <></>;
   },
   sidebar: [
     {
