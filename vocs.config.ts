@@ -10,7 +10,7 @@ export default defineConfig({
       link: "/",
     },
     {
-      text: "Quickstart",
+      text: "Build Open Frames with",
       collapsed: false,
       items: [
         {
@@ -20,6 +20,10 @@ export default defineConfig({
         {
           text: "OnchainKit",
           link: "/quickstart/onchainkit",
+        },
+        {
+          text: "Frog",
+          link: "/quickstart/frog",
         },
       ],
     },
