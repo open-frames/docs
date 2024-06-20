@@ -1,9 +1,44 @@
 import { defineConfig } from "vocs";
 
 export default defineConfig({
-  title: "Open Frames - Docs",
+  logoUrl: { light: "/openframes.svg", dark: "/openframes-dark.svg" },
+  iconUrl: "/icon.png",
+  ogImageUrl: "https://openframes.xyz/opengraph.png",
+
+  title: "Open Frames",
   description:
     "An extension of Open Graph that makes link previews interactive.",
+  rootDir: ".",
+  head({ path }) {
+    if (path === "/") {
+      return (
+        <>
+          <meta property="og:type" content="website" />
+          <meta name="fc:frame" content="vNext" />
+          <meta name="of:version" content="vNext" />
+          <meta name="of:accepts:farcaster" content="vNext" />
+          <meta name="of:accepts:xmtp" content="2024-02-09" />
+          <meta name="of:accepts:lens" content="1.0.0" />
+          <meta name="of:accepts:*" content="*" />
+          <meta
+            name="fc:frame:image"
+            content="https://opengraph.xyz/opengraph.png"
+          />
+          <meta
+            property="og:image"
+            content="https://openframes.xyz/opengraph.png"
+          />
+          <meta name="fc:frame:button:1" content="Read Docs" />
+          <meta
+            name="fc:frame:button:1:target"
+            content="https://openframes.xyz"
+          />
+        </>
+      );
+    }
+
+    return <script defer src="/_vercel/insights/script.js" />;
+  },
   sidebar: [
     {
       text: "Specification",
