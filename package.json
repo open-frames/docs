@@ -6,7 +6,7 @@
     "dev": "vocs dev",
     "build": "vocs build",
     "preview": "vocs preview",
-    "update:spec": "curl https://raw.githubusercontent.com/open-frames/standard/main/README.md -o docs/pages/spec.md"
+    "update:spec": "curl https://raw.githubusercontent.com/open-frames/standard/main/README.md -o pages/spec.md"
   },
   "dependencies": {
     "react": "^18.2.0",
