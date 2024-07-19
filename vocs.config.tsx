@@ -61,6 +61,10 @@ export default defineConfig({
           text: "Frog",
           link: "/quickstart/frog",
         },
+        {
+          text: "Neynar",
+          link: "/quickstart/neynar",
+        },
       ],
     },
     {
