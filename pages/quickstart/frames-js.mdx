@@ -67,19 +67,9 @@ export const frames = createFrames({
             return undefined;
           }
           // payload is an XMTP frame action payload
-
           const result = await getXmtpFrameMessage(body);
-          /**
-          {
-            frameUrl: 'https://example.com',
-            buttonIndex: 1,
-            timestamp: 1234567890,
-            opaqueConversationIdentifier: "...",
-            verifiedWalletAddress: "0x...",
-          }
-          **/
-          const { verifiedWalletAddress } = result;
           // ... do something with the verifiedWalletAddress
+          const { verifiedWalletAddress } = result;
           return { ...result };
         },
       },
