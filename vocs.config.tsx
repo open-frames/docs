@@ -46,11 +46,15 @@ export default defineConfig({
       link: "/",
     },
     {
+      text: "Quickstart",
+      link: "/quickstart",
+    },
+    {
       text: "Build Open Frames with",
       collapsed: false,
       items: [
         {
-          text: "frames.js",
+          text: "Frames.js",
           link: "/quickstart/frames-js",
         },
         {
